@@ -7,5 +7,5 @@ return result;
 }
 int [] array = {33,13,23,313,39,15,10,1,45};
 
-int max = Max(Max(array[0], array[1], array[2]), Max(array[3], array[4], array[5]), Max(array[6], array[7], array[8]));
+int max = Max(Max(array[0], array[1], array[2]), Max(array[3], array[4], array[5]), Max(array[6], array[0], array[0]));
 Console.WriteLine(max);
